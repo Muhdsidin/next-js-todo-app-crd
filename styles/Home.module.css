@@ -227,3 +227,11 @@
     transform: rotate(0deg);
   }
 }
+
+
+.div{
+  margin-left: 45%;
+  display: flex;
+  height: 100px;
+  width: 30%;
+}
