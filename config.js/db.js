@@ -5,7 +5,7 @@ const { default: mongoose, Mongoose } = require("mongoose");
 
 const connectDB = async () => {
   try {
-    await mongoose.connect('mongodb://127.0.0.1:27017/next-tut', {
+    await mongoose.connect('mongodb+srv://bsidin79:<JMLqRDaP9BbdlUlx>@todo.lr9t6v0.mongodb.net/', {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
